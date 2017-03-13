@@ -1,19 +1,21 @@
-form div {
-  margin-bottom: 1.5em;
-}
-
-input {
-  font-size: 1.5rem;
+html {
+  font-family: "Open Sans", sans-serif;
 }
 
 input,
 select,
 textarea {
   width: 15em;
+  border-color: #f2f2f2;
 }
 
 button {
-  font-size 1.125rem;
-  padding: 0.5em 0.75eml
+  padding: .5em .75em;
   border: 3px solid;
+  color: #fff;
+  background-color: #000;
+}
+
+@media query {
+
 }
