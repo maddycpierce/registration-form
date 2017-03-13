@@ -1,0 +1,19 @@
+form div {
+  margin-bottom: 1.5em;
+}
+
+input {
+  font-size: 1.5rem;
+}
+
+input,
+select,
+textarea {
+  width: 15em;
+}
+
+button {
+  font-size 1.125rem;
+  padding: 0.5em 0.75eml
+  border: 3px solid;
+}
