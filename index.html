@@ -14,57 +14,57 @@
 
   <section class="contact pad-t-2 pad-b-2 gutter max-length">
     <div class="unit max-length">
-      <h1 class="normal push-none">Want to go to Mars?</h1><hr>
-        <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <h1 class="normal push-none">Want to go to Mars?</h1>
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
 
-        <fieldset class="push-0">
-          <legend class="normal italic push giga">Personal details</legend>
+      <fieldset class="push-0">
+        <legend class="normal italic push giga">Personal details</legend>
 
-            <form class="grid push-0" method="POST" action="https://formspree.io/pier0180@algonquinlive.com">
-              <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
-                <label for="name">Name</label>
-                <input id="name">
-              </div>
+        <form class="grid push-0" method="POST" action="https://formspree.io/pier0180@algonquinlive.com">
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="name">Name</label>
+            <input id="name" name="name">
+          </div>
 
-              <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
-                <label for="age">Age</label>
-                <input id="age">
-              </div>
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="age">Age</label>
+            <input id="age" name="age">
+          </div>
 
-              <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
-                <label for="email">Email</label>
-                <input type="email" id="email">
-              </div>
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+          </div>
 
-              <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
-                <label for="fitness">Physical fitness</label>
-                <select id="fitness">
-                  <option>Super-human</option>
-                  <option>Fit as a fiddle</option>
-                  <option>Not terribly strong</option>
-                  <option>A little couch-potato-y</option>
-                </select>
-              </div>
+          <div class="unit unit-xs-1 unit-l-1-2 gutter-1-4 push">
+            <label for="fitness">Physical fitness</label>
+            <select id="fitness" name="fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
 
-              <div class="unit unit-xs-1 push">
-                <label for="address">Address</label>
-                <textarea id="address"></textarea>
-              </div>
-            </form>
-          </fieldset>
+          <div class="unit unit-xs-1 push">
+            <label for="address">Address</label>
+            <textarea id="address" name="address"></textarea>
+          </div>
+        </form>
+      </fieldset>
 
-          <fieldset>
-            <legend class="normal italic giga">Mission statement</legend>
-              <div class="unit unit-xs-1 push">
-                <label for="message">Why do you want to go to Mars?</label>
-                <textarea id="message"></textarea>
-              </div>
+      <fieldset>
+        <legend class="normal italic giga">Mission statement</legend>
+        <div class="unit unit-xs-1 push">
+          <label for="message">Why do you want to go to Mars?</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
 
-              <div class="text-center">
-                <button class="unit grid-middle btn" action="https://formspree.io" type="submit">Register for the trip!</button>
-              </div>
-              <input type="hidden" name="subject" value="Request to join the mission">
-          </fieldset>
+        <div class="text-center">
+          <button class="unit grid-middle btn" type="submit">Register for the trip!</button>
+        </div>
+        <input type="hidden" name="subject" value="Request to join the mission">
+      </fieldset>
     </div>
   </section>
 
