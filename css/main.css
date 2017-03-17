@@ -5,17 +5,12 @@ html {
 input,
 select,
 textarea {
-  width: 15em;
   border-color: #f2f2f2;
 }
 
 button {
   padding: .5em .75em;
-  border: 3px solid;
+  border: 10px solid;
   color: #fff;
   background-color: #000;
-}
-
-@media  60em {
-
 }
